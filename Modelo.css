@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 120%
+}
+
+.contenerdor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+.espacio {
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  padding: 3px 0;
+}
+header {
+  height: 70vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.541) 100%,
+      rgba(255, 255, 255, 0.541) 0%
+    ),url(img/Titulo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header div h1{
+  padding: 1rem 2rem;
+  float: none;
+  align-self: center;
+}
+
+.Menu-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 4rem;
+  background-image: linear-gradient(
+    rgba(85, 228, 72, 0.89) 0%,
+    rgba(57, 210, 221, 0.89) 100%
+  );
+
+  box-shadow: 1px 1px 10px 0 rgba(0, 0,0, .5);
+}
+.Menu-nav ul{
+  float: left; 
+  display: flex;
+}
+.Menu-nav ul li{
+  float: left; 
+  list-style: none;
+  position: relative;
+}
+.Menu-nav ul li ul{
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(
+    rgba(57, 210, 221, 0.89) 0%,
+    rgba(114, 57, 221, 0.89) 100%
+  );
+  box-shadow: 1px 1px 10px 0 rgba(0, 0,0, .5);
+}
+.Menu-nav ul li:hover ul{
+  display: block;
+}
+.Menu-nav h3{
+  padding: 1rem 2rem;
+  float: left;
+  align-self: center;
+}
+.Menu-nav ul a{
+  display: block;
+  padding: 0 2rem;
+  line-height: 4rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none ;
+}
+
+.tangEjem{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background-image: linear-gradient(
+    rgba(2, 49, 255, 0.5) 0%,
+    rgba(4, 253, 58, 0.5) 100%
+  );
+  
+}
+.recta1{
+  width: 1px;
+  height: 200px;
+  background-image: linear-gradient(
+    rgba(255, 74, 2, 0.897) 0%,
+    rgba(4, 41, 253, 0.5) 100%
+  );
+}
+.secEjem{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    rgba(245, 26, 10, 0.5) 0%,
+    rgba(127, 9, 238, 0.5) 100%
+  );
+}
+.recta2{
+  width: 1px;
+  height: 200px;
+  margin: auto;
+  background-image: linear-gradient(
+    rgba(2, 48, 255, 0.897) 0%,
+    rgba(216, 253, 4, 0.5) 100%
+  );
+  border-top: 5px;
+  border-bottom: 100px;
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.extEjem{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    rgba(251, 255, 0, 0.5) 0%,
+    rgba(29, 90, 5, 0.5) 100%
+  );
+}
+
+.recta3{
+  width: 1px;
+  height: 200px;
+  margin: auto;
+  background-image: linear-gradient(
+    rgba(2, 48, 255, 0.897) 0%,
+    rgba(253, 41, 4, 0.5) 100%
+  );
+  border-collapse: collapse;
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.Definicion_R_Tangencial{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(146, 230, 245, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+
+.Definicion_R_Secante{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(238, 123, 123, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+
+.Definicion_R_Exterior{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(236, 238, 123, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+    );
+}
+
+
+.BotonE1{
+  width: 90%;
+  max-width: 150px;
+  height: 50px;
+  border-style: none;
+  margin: auto;
+  background-image: linear-gradient(
+    rgba(100, 248, 100, 0.5) 0%,
+    rgba(54, 104, 240, 0.5) 100%
+    );
+  
+}
+
+.E1{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(245, 206, 206, 0.5) 0%,
+    rgba(247, 233, 187, 0.5) 100%
+    );
+}
+
+
+
+
+
+
+
+.E2{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(242, 245, 206, 0.5) 0%,
+    rgba(189, 247, 187, 0.5) 100%
+    );
+}
+.BotonE2{
+  width: 90%;
+  max-width: 150px;
+  height: 50px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(100, 248, 100, 0.5) 0%,
+    rgba(54, 104, 240, 0.5) 100%
+    );
+}
+
+
+
+
+.E3{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(189, 247, 187, 0.5) 0%,
+    rgba(187, 247, 247, 0.5) 100%
+    );
+}
+.BotonE3{
+  width: 90%;
+  max-width: 150px;
+  height: 50px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(100, 248, 100, 0.5) 0%,
+    rgba(54, 104, 240, 0.5) 100%
+    );
+}
+
+.BotonE3S{
+  width: 90%;
+  max-width: 150px;
+  height: 50px;
+  display: inline;
+  border-style: solid;
+  background-image: linear-gradient(
+    rgba(236, 100, 248, 0.5) 0%,
+    rgba(54, 104, 240, 0.5) 100%
+    );
+    align-self: center;
+}
+
+.Canv{
+  width: 90%;
+  max-width: 250px;
+  height: 200;
+  border-style: none;
+  background-color: white;
+  margin: auto;
+  cursor:crosshair;
+}
+
+
+.EJ3{
+  width: 90%;
+  max-width: 350px;
+  height: 40px;
+  background-image: linear-gradient(
+    rgba(248, 100, 100, 0.5) 0%,
+    rgba(240, 237, 54, 0.5) 100%
+    );
+  display: flex;
+  position: relative;
+  text-align:center;
+}
+.EJ3C{
+  width: 90%;
+  max-width: 100px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  text-align:center;
+}
+
+
+
+.E4{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(187, 247, 247, 0.5) 0%,
+    rgba(187, 213, 247, 0.5) 100%
+    );
+}
+.Boton{
+  background-image: linear-gradient(
+    rgba(57, 209, 255, 0.5) 0%,
+    rgba(54, 150, 240, 0.5) 100%
+    );
+}
+
+
+.Definicion_C_Ajenas{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(146, 153, 245, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+.Definicion_C_Secante{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(146, 245, 154, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+.Definicion_C_Tanente{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(242, 146, 245, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+
+.C_E1{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(206, 244, 245, 0.5) 0%,
+    rgba(255, 183, 251, 0.5) 100%
+    );
+}
+.C_E2{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(255, 183, 251, 0.5) 0%,
+    rgba(255, 155, 155, 0.5) 100%
+    );
+}
+.C_E3{
+  width: 90%;
+  max-width: 1200px;
+  border-style: none;
+  background-image: linear-gradient(
+    rgba(255, 155, 155, 0.5) 0%,
+    rgba(255, 228, 155, 0.5) 100%
+    );
+}
+
+.info{
+
+  background-image: linear-gradient(
+    
+    rgba(54, 104, 240, 0.5) 0%,
+    rgba(100, 248, 100, 0.5) 100%
+    );
+}

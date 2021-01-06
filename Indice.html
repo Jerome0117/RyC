@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRE LINEAS Y CIRCUNFERENCIAS</title>
+    <link rel="stylesheet" href="Modelo.css">
+</head>
+
+<body>
+    <header class="header" id="inicio">
+
+
+        <nav class="Menu-nav opc">
+            <h3>MENU</h3>
+            <ul>
+                <li> <a href="#">INICIO</a>
+
+                </li>
+                <li> <a href="#rectas">RECTAS</a>
+                    <ul>
+                        <li><a href="#ALoQueLlegamos">Rectas</a></li>
+                        <li><a href="#E1">Ejercicio_1</a></li>
+                        <li><a href="#E2">Ejercicio_2</a></li>
+                        <li><a href="#E3">Ejercicio_3</a></li>
+                        <li><a href="#E4">Ejercicio_4</a></li>
+                    </ul>
+                </li>
+
+                <li> <a href="#circunferencias">CIRCUNFERENCIAS</a>
+                    <ul>
+                        <li><a href="#circunferencias">Circunferencias</a></li>
+                        <li><a href="#C_E1">Ejercicio_1</a></li>
+                        <li><a href="#C_E2">Ejercicio_2</a></li>
+                        <li><a href="#C_E3">Ejercicio_3</a></li>
+                    </ul>
+                </li>
+
+                <li> <a href="#Información">INFORMACIÓN</a> </li>
+                <li> <audio src="Audios/sweet-fall.mp3" preload="none" controls autoplay loop></audio> </li>
+            </ul>
+
+        </nav>
+
+        <div class="contenerdor head">
+
+            <h1>ENTRE LINEAS Y CIRCUNFERENCIAS</h1>
+            <p class="copy">En esta secuencia identificarás las posiciones relativas entre
+                una recta y una circunferencia y entre circunferencias. Conocerás
+                algunas propiedades de las rectas secante y tangente de una
+                circunferencia.</p>
+        </div>
+
+
+
+    </header>
+
+    <main>
+
+        <section class="servise" id="rectas">
+            <div class=contenerdor>
+                <div class="list-recta">
+
+                    <div class="Rect">
+                        <h2 class=subtitulo1>Sección 1</h2>
+                        <h3 class="n-recta"><span class="numero">1: </span>Rectas y Circunferencias</h3>
+                        <img src="img/TRectas.png" alt="" class="m1">
+                        <p>
+                            Nota: Una recta esta conformada por varios puntos en una misma dirección, tambien posee una
+                            pendiente la cual inidica que tanto esta inclidada la recta con respecto al eje X.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="Pa empezar" id=ALoQueLlegamos>
+            <div class=contenerdor>
+                <div class="Defs1">
+
+                    <div class=parte1>
+                        <h2 class="Def1">A lo que llegamos</h2>
+
+                        <div class="Definicion_R_Tangencial">
+                            <h2>Tangentes</h2>
+                            <p class="contenerdor">
+                                En el plano, una recta puede intersecta a una circunferencia en un punto, intersecarla
+                                en
+                                dos puntos o no intersecarla.
+                                Las rectas que intersecan a la circunferencia en un solo punto se llaman
+                                rectas tangentes a la circunferencia.
+                                Al punto en el que la tangente
+                                interseca a la circunferencia se llama punto de tangencia. La distancia
+                                que hay del centro a la recta tangente es igual al radio.
+                            </p>
+
+                            <center><img src="img/Rim1.png" alt=""> <img src="img/Rim1_2.png" alt=""></center>
+
+                        </div>
+
+
+                        <div class="Definicion_R_Secante">
+                            <h2>Secantes</h2>
+                            <p class="contenerdor">
+                                Las rectas que intersecta en dos puntos a la circunferencia se llaman
+                                rectas secantes. La distancia del centro de la circunferencia a la recta
+                                secante es menor que el radio.
+                            </p>
+
+                            <center><img src="img/Rim2.png" alt=""> <img src="img/Rim2_2.png" alt=""></center>
+                        </div>
+
+
+
+                        <div class="Definicion_R_Exterior">
+                            <h2>Exteriores</h2>
+                            <p class="contenerdor espacio">
+
+                                Las rectas que no intersecta a la circunferencia se llaman
+                                rectas exteriores. La distancia del centro de la circunferencia
+                                a la recta exterior es mayor que el radio.
+                            </p>
+
+                            <center><img src="img/Rim3.png" alt=""> <img src="img/Rim3_1.png" alt=""></center>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="servise" id="Rectas" name="Rectas">
+            <div class=contenerdor>
+
+                <div class="E1" id="E1">
+
+                    <div class="Img-Info ">
+                        <h2 class=subtitulo2>Ejercicio 1</h2>
+                        <h3 class="Identf"><span class="numero">1: <span>Puntos en común</span>
+                        </h3>
+
+                        <p class="espacio">
+                            Seleccione un ejercicio y escribe en los siguientes recuadros el número que corresponde a
+                            cada recta.
+
+                        </p>
+
+                        <div class="Resp1" id="Resp1" onclick="CImg1()">
+                            <p class="espacio">Seleccione el ejercicio:
+                                <select name="E1_SE" id="E1_SE">
+                                    <option value="Respuesta1">-Versión 1-</option>
+                                    <option value="Respuesta2">-Versión 2-</option>
+                                    <option value="Respuesta3">-Versión 3-</option>
+                                    <option value="Respuesta4">-Versión 4-</option>
+                                </select>
+                            </p>
+
+                            <center><img src="" alt="" id="E1I"></center>
+
+                            <p class="espacio">Recta que "no intersecta" a la circunferencia:
+                                <select name="E1R1" id="E1_1">
+                                    <option value=" SELECCIONE UNA OPCION"></option>
+                                    <option value="Respuesta1">-1-</option>
+                                    <option value="Respuesta2">-2-</option>
+                                    <option value="Respuesta3">-3-</option>
+                                    <option value="Respuesta4">-4-</option>
+                                </select>
+                            </p>
+
+                            <p class="espacio">Recta "secante" a la circunferencia por 2 puntos (Sin pasar por el
+                                centro):
+                                <select name="E1R2" id="E1_2">
+                                    <option value=" SELECCIONE UNA OPCION"></option>
+                                    <option value="Respuesta1">-1-</option>
+                                    <option value="Respuesta2">-2-</option>
+                                    <option value="Respuesta3">-3-</option>
+                                    <option value="Respuesta4">-4-</option>
+                                </select>
+                            </p>
+                            <p class="espacio">Recta que "secante" a la circunferencia por el centro:
+                                <select name="E1R2" id="E1_3">
+                                    <option value=" SELECCIONE UNA OPCION"></option>
+                                    <option value="Respuesta1">-1-</option>
+                                    <option value="Respuesta2">-2-</option>
+                                    <option value="Respuesta3">-3-</option>
+                                    <option value="Respuesta4">-4-</option>
+                                </select>
+                            </p>
+                            <p class="espacio">Recta que sea "tangente" a la circunferencia:
+                                <select name="E1R2" id="E1_4">
+                                    <option value=" SELECCIONE UNA OPCION"></option>
+                                    <option value="Respuesta1">-1-</option>
+                                    <option value="Respuesta2">-2-</option>
+                                    <option value="Respuesta3">-3-</option>
+                                    <option value="Respuesta4">-4-</option>
+                                </select>
+                                <center><input type="button" class="BotonE1" id="Ej1_Pase" value="Verificar"
+                                        name="E1_B1" onclick="ValidarE1_1()"> </center>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class=contenerdor>
+
+                <div class="E2" id="E2">
+                    <div class="Img-Info">
+                        <h2 class=subtitulo2>Ejercicio 2</h2>
+                        <h3 class="Identf"><span class="numero">2: <span>Identificar</span>
+                        </h3>
+
+                        <p class="espacio">
+                            Seleccione un ejercicio y conteste a las siguientes preguntas.
+
+                        </p>
+
+
+                        <p class="espacio">Seleccione el ejercicio:
+                            <select name="E2_SE" id="E2_SE" onclick="CImg2()">
+                                <option value="Respuesta1">-Versión 1-</option>
+                                <option value="Respuesta2">-Versión 2-</option>
+                                <option value="Respuesta3">-Versión 3-</option>
+                                <option value="Respuesta4">-Versión 4-</option>
+                            </select>
+                        </p>
+
+
+                        <center><img src="" alt="" id="E2I"></center>
+
+                        <p class="espacio"> ¿El triángulo formado por las rectas es isóseles?:
+                            <select name="E2R1" id="E2R1">
+                                <option value=" SELECCIONE UNA OPCION"></option>
+                                <option value="Respuesta1">Si</option>
+                                <option value="Respuesta2">No</option>
+                            </select>
+
+                            ¿Por qué?
+                            <select name="E2R2" id="E2R2">
+                                <option value=" SELECCIONE UNA OPCION"></option>
+                                <option value="Respuesta1">Tiene 2 ángulos interiores iguales y 2 lados iguales</option>
+                                <option value="Respuesta2">Los 3 lados del triángulo y los ángulos interiores son
+                                    iguales</option>
+                                <option value="Respuesta3">Contiene un angulo de 90°</option>
+                                <option value="Respuesta4">Todos los lados son diferentes</option>
+                            </select>
+
+                        </p>
+
+                        <p class="espacio">¿Hay algun ángulo que mida 90°?:
+                            <select name="E2R3" id="E2R3">
+                                <option value=" SELECCIONE UNA OPCION"></option>
+                                <option value="Respuesta1">Si</option>
+                                <option value="Respuesta2">No</option>
+                            </select>
+                        </p>
+
+                        <p class="espacio">¿Hay una recta que sea perpendicular al segmento XY?:
+                            <select name="E2R4" id="E2R4">
+                                <option value=" SELECCIONE UNA OPCION"></option>
+                                <option value="Respuesta1">Si</option>
+                                <option value="Respuesta2">No</option>
+                            </select>
+                            ¿Por qué?
+                            <select name="E2R4" id="E2R5">
+                                <option value=" SELECCIONE UNA OPCION"></option>
+                                <option value="Respuesta1">Todos los ángulos internos son menores a 90°</option>
+                                <option value="Respuesta2">Forma un triángulo equilatero</option>
+                                <option value="Respuesta3">Es un triángulo escaleno</option>
+                                <option value="Respuesta4">Un ángulo interno es mayor a 90°</option>
+                                <option value="Respuesta5">No hay respuesta</option>
+                            </select>
+                        </p>
+
+                        <p class="espacio">¿Qué triángulo es el que se forma?:
+
+                            <br>
+
+                            <input type="checkbox" name="Rect" value="1" id="E2R5_1"> Escaleno
+
+                            <br>
+
+                            <input type="checkbox" name="Acut" value="2" id="E2R5_2"> Isóseles
+
+                            <br>
+
+                            <input type="checkbox" name="Obtu" value="3" id="E2R5_3"> Equilatero
+
+                        </p>
+                        <center><input type="button" class="BotonE2" id="BotonE2" value="Verificar" name="E2_B"
+                                onclick="ValidarE2()"></center>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class=contenerdor>
+                <div class="E3" id="E3">
+                    <h2 class=subtitulo2>Ejercicio 3</h2>
+                    <h3 class="Identf"><span class="numero">3: <span>Dibujo</span></h3>
+                    <p class="espacio">A continuación se presentan 3 animaciones (A,B,C respectivamente)
+                        seleccione el boton debajo de la animación que represente una
+                        recta: <select name="" id="E3_M" onclick="Ejercicio3()">
+                            <option value="Respuesta0"></option>
+                            <option value="Respuesta1">Tangente</option>
+                            <option value="Respuesta2">Secante</option>
+                            <option value="Respuesta3">Exterior</option>
+                        </select>
+                    </p>
+
+                    <center>
+                        <video src="vid/Vide3 1-1.m4v" autoplay muted loop></video>
+                        <video src="vid/Vide3 2-1.m4v" autoplay muted loop></video>
+                        <video src="vid/Vide3 3-1.m4v" autoplay muted loop></video>
+                    </center>
+                    <center>
+                        <input type="button" class="BotonE3S" class="espacio" id="BotonE3_1" value="A" name="E3_B"
+                            onclick="ValidarE3_1()">
+                        <input type="button" class="BotonE3S" class="espacio" id="BotonE3_2" value="B" name="E3_B"
+                            onclick="ValidarE3_2()">
+                        <input type="button" class="BotonE3S" class="espacio" id="BotonE3_1" value="C" name="E3_B"
+                            onclick="ValidarE3_3()">
+
+                    </center>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class=contenerdor>
+                <div class="E4" id="E4">
+                    <h2 class=subtitulo2>Ejercicio 4</h2>
+                    <h3 class="Identf"><span class="numero">4: <span>Recta en movimiento</span></h3>
+                    <p class="espacio">Contesta las preguntas que estan relacionadas con la animacion a continuación.
+                    </p>
+                    <center><video src="vid/VidE4.m4v" autoplay muted loop></video></center>
+                    <p class="espacio">¿Qué pasa cuando los puntos estan en las mismas coordenadas?<select name="E4_1"
+                            id="E4_1" onclick="Ejercicio4()">
+                            <option value="Sytrde"></option>
+                            <option value="Respuesta1"> Se crea una recta tangente.</option>
+                            <option value="Respuesta2"> Se crea una recta secante.</option>
+                            <option value="Respuesta3"> Se creea una recta exterior.</option>
+                        </select>
+                    </p>
+
+                    <p class="espacio">¿Qué le pasa al ángulo entre la recta AB y AC mientras esta sea secante?<select
+                            name="E4_2" id="E4_2">
+                            <option value="Strew"></option>
+                            <option value="Respuesta1"> Su ángulo esta entre los 0° a los 360°.</option>
+                            <option value="Respuesta2"> Su ángulo esta entre los 0° a los 180°.</option>
+                            <option value="Respuesta3"> Su angulo esta entre los 0° a los 90°.</option>
+                        </select>
+                    </p>
+                    <center><input type="button" class="BotonE3" id="BotonE3" value="Verificar" name="E3_B"
+                            onclick="ValidarE4()">
+                    </center>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="servise" id="circunferencias">
+            <div class=contenerdor>
+
+                <div class="List-Circun">
+
+                    <div class="Circun">
+                        <h2 class=subtitulo2>Sección 2</h2>
+                        <h3 class="n-circ"><span class="numero">2: <span>Circunferencias Entre Circunferencias</span>
+                        </h3>
+                        <img src="img/TCircunferencias.png" alt="" class="m2">
+                        <p class="espacio">
+                            Nota: Una circunferencia es una curva plana conformado por un conjunto de puntos que estan a
+                            la misma distancia de un punto central.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class=contenerdor>
+                <div class="Defs2">
+
+                    <div class=parte2>
+                        <h2 class="Def2">A lo que llegamos</h2>
+
+                        <div class="Definicion_C_Tanente">
+
+                            <p class="espacio">
+                            <h2>Tangentes:</h2>
+                            Cuando tienen un solo punto en común. Estas circunferencias pueden ser externas o internas.
+                            </p>
+
+                            <center><video src="vid/Vidct.m4v" autoplay muted loop></video></center>
+
+                        </div>
+
+
+                        <div class="Definicion_C_Secante">
+
+                            <p class="espacio">
+                            <h2>Secantes:</h2>
+                            Cuando tienen dos puntos en común.
+                            </p>
+
+                            <center><video src="vid/Vidcsec.m4v" autoplay muted loop></video></center>
+                        </div>
+
+
+
+                        <div class="Definicion_C_Ajenas">
+
+                            <h4 class="espacio">
+                                <h2>Ajenas:</h2>
+                                Cuando no tienen puntos en común. Estas circunferencias
+                                pueden ser externas o internas. Un caso particular de éstas son las
+                                circunferencias concéntricas cuya característica es que tienen el
+                                mismo centro.
+                            </h4>
+                            <center><video src="vid/VidcA.m4v" autoplay muted loop></video></center>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="servise" id="Rectas" name="Rectas">
+            <div class=contenerdor>
+                <div id="C_E1" class="C_E1">
+                    <h2>Ejercicio 1</h2>
+                    <h3 class="espacio"> Clasificación</h3>
+                    <p class="espacio">En la siguiente sucesión de imágenes, la circunferencia pequeña tiene diferentes
+                        posiciones.</p>
+                    <p class="espacio">Clasifique la imagen dentro de las definiones anteriores.</p>
+                    <center>
+                        <div id="CE1_1">
+                            <img src="img/CEj1_1.png" id="CE1_IM1"> <img src="img/CEj1_2.png" id="CE1_IM2"> <img
+                                src="img/CEj1_3.png" id="CE1_IM3">
+                        </div>
+
+                        <div id="CE1_1">
+                            <select name="" id="CE1_R1">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                            <select name="" id="CE1_R2">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                            <select name="" id="CE1_R3">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                        </div>
+                    </center>
+                    <center>
+                        <div id="CE1_1">
+                            <img src="img/CEj1_4.png" id="CE1_IM4"><img src="img/CEj1_5.png" id="CE1_IM5"><img
+                                src="img/CEj1_6.png" id="CE1_IM6"><img src="img/CEj1_7.png" id="CE1_IM7">
+                        </div>
+
+                        <div id="CE1_1">
+                            <select name="" id="CE1_R4">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                            <select name="" id="CE1_R5">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                            <select name="" id="CE1_R6">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                            <select name="" id="CE1_R7">
+                                <option value="S"></option>
+                                <option value="Respuesta1"> 1 Circunferencias tangentes externas.</option>
+                                <option value="Respuesta2"> 2 Circunferencias ajenas internas</option>
+                                <option value="Respuesta3"> 3 Circunferencias secantes</option>
+                                <option value="Respuesta4"> 4 Circunferencias concéntricas</option>
+                                <option value="Respuesta5"> 5 Circunferencias ajenas externas</option>
+                                <option value="Respuesta6"> 6 Circunferencias tangentes internas</option>
+                            </select>
+                        </div>
+                    </center>
+                    <center><input type="button" class="BotonE3" id="BotonE3" value="Verificar" name="E3_B"
+                            onclick="ValidarE5()">
+                    </center>
+                </div>
+            </div>
+
+            <div class=contenerdor>
+                <div id="C_E2" class="C_E2">
+                    <h2>Ejercicio 2</h2>
+                    <h3 class="espacio">Lo que aprendimos</h3>
+                    <p class="espacio"> La circunferencia de centro O está inscrita en un hexágono regular. P y Q son
+                        puntos de tangencia.</p>
+                    <p class="espacio">Clasifique la imagen dentro de las definiones anteriores.</p>
+                    <p class="espacio">Seleccione el tipo de ejercicio:
+                        <select name="CE2" id="CE2" onclick="Ejercicio6()">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-Versión 1-</option>
+                            <option value="Respuesta2">-Versión 2-</option>
+                            <option value="Respuesta3">-Versión 3-</option>
+                            <option value="Respuesta4">-Versión 4-</option>
+                        </select>
+                    </p>
+
+                    <center><img src="" alt="" id="CE2img"></center>
+
+                    <p class="espacio">¿Cuánto miden los ángulos internos de un hexágono regular?:
+                        <select name="E1R1" id="CE2_1">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-120°-</option>
+                            <option value="Respuesta2">-180°-</option>
+                            <option value="Respuesta3">-100°-</option>
+                            <option value="Respuesta4">-150°-</option>
+                        </select>
+                    </p>
+
+                    <p class="espacio">¿Cuánto miden los ángulos formados por una tangente y el radio trazado al punto
+                        de tangencia?:
+                        <select name="E1R2" id="CE2_2">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-90°-</option>
+                            <option value="Respuesta2">-120°-</option>
+                            <option value="Respuesta3">-180°-</option>
+                            <option value="Respuesta4">-45°-</option>
+                        </select>
+                    </p>
+                    <p class="espacio">¿Cuánto suman los ángulos internos del cuadrilátero?:
+                        <select name="E1R2" id="CE2_3">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-180°-</option>
+                            <option value="Respuesta2">-720°-</option>
+                            <option value="Respuesta3">-570°-</option>
+                            <option value="Respuesta4">-60°-</option>
+                        </select>
+                    </p>
+                    <p class="espacio">¿Cuánto mide el ángulo t<sub>1</sub>Ot<sub>2</sub>?:
+                        <select name="E1R2" id="CE2_4">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-45°-</option>
+                            <option value="Respuesta2">-60°-</option>
+                            <option value="Respuesta3">-180°-</option>
+                            <option value="Respuesta4">-120°-</option>
+                        </select>
+                    </p>
+                    <center><input type="button" class="BotonE3" id="BotonE3" value="Verificar" name="E3_B"
+                            onclick="VerificarE6()">
+                    </center>
+                </div>
+            </div>
+
+            <div class=contenerdor>
+                <div id="C_E3" class="C_E3">
+                    <h2>Ejercicio 3</h2>
+                    <h3 class="espacio">Ejemplo</h3>
+                    <p class="espacio"> Las circunferencias con centros A y B tienen radios
+                        iguales y cada una pasa por el centro de la otra. La
+                        recta m es tangente en T a la circunferencia con
+                        centro A y es secante a la circunferencia con centro
+                        en B. Además, los puntos A, B y P son colineales.</p>
+                    </p>
+
+                    <center><img src="img/CEj3_1.png" alt="" id="CE3img"></center>
+
+                    <p class="espacio">¿Que tipo de triángulo es el PAT?:
+                        <select name="C3_1" id="C3_1">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-Rectángulo-</option>
+                            <option value="Respuesta2">-Acutángulo-</option>
+                            <option value="Respuesta3">-Obtusángulo-</option>
+                        </select>
+                    </p>
+
+                    <p class="espacio">¿Cuánto mide el ángulo TAP?:
+                        <select name="C3_2" id="C3_2">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-30°-</option>
+                            <option value="Respuesta2">-60°-</option>
+                            <option value="Respuesta3">-20°-</option>
+                            <option value="Respuesta4">-40°-</option>
+                        </select>
+                    </p>
+                    <p class="espacio">¿Cuánto mide el ángulo TBP?:
+                        <select name="C3_3" id="C3_3">
+                            <option value=" SELECCIONE UNA OPCION"></option>
+                            <option value="Respuesta1">-60°-</option>
+                            <option value="Respuesta2">-150°-</option>
+                            <option value="Respuesta3">-90°-</option>
+                            <option value="Respuesta4">-120°-</option>
+                        </select>
+                    </p>
+                    <center><input type="button" class="BotonE3" id="BotonE3" value="Verificar" name="E3_B"
+                            onclick="ValidarE6()">
+                    </center>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="info" class="info">
+        <section class="servise" id="Información">
+            <div class=contenerdor>
+                <h2 class=subtitulo3>INFORMACIÓN</h2>
+                <div class="Info">
+                    <div>
+                        <h2 class="n-info"><span class="numero">3: <span>Info del proyecto</span></h2>
+                        <center><img src="img/unnamed.png" alt="" class="m3"></center>
+                        <p >
+                            Esta pagina web fue creada con el propósito de poner en práctica los conocimientos
+                            adquiridos durante en curso de Multimedia 2020B de la Facultad de ingeniería de la UAEMex.
+                        <p>Creador y programador de la pagina web: Jorge Tecpa Villegas.</p>
+                        <p>Correo de contacto: jor.tec.vill@gmail.com</p>
+                        <p>Software usado:</p>
+                        <p><a href="https://code.visualstudio.com/">Visual Studio Code.</a></p>
+                        <p>Paint tool sai.</p>
+                        <p><a href="https://pixlr.com/es/x/">pixlr.com</a></p>
+                        <p>Fuentes de información:</p>
+                        <p><a href="https://www.youtube.com/watch?v=BO-nhyqpm7A"> Extensiones de Visual Studio Code </a>
+                        </p>
+                        <p><a href="https://www.youtube.com/watch?v=TXtMY-Qm05I"> Como hacer un menu desplegable con
+                                HTML y CSS</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=HH_SMpxV7qQ&feature=youtu.be"> COMO crear una PAGINA
+                                WEB en HTML y CSS [PASO A PASO] | Adaptable a DISPOSITIVOS MÓVILES</a></p>
+                        <p><a href="https://www.hazunaweb.com/"> Cómo hacer una pagina web paso a paso</a></p>
+                        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript"> MDN web Docs</a></p>
+                        <p><a href="http://w3.unpocodetodo.info/canvas/arc.php"> w3.unpocodetodo </a></p>
+                        <p><a href="https://www.w3schools.com/html/default.asp"> w3schools</a></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="Modelo.css"></script>
+    <script src="E1.js"></script>
+    <script src="E2.js"></script>
+    <script src="E3.js"></script>
+    <script src="E4.js"></script>
+    <script src="E5.js"></script>
+    <script src="E6.js"></script>
+    <script src="E7.js"></script>
+    <script src="Circunferencias.js"></script>
+</body>
+
+</html>
